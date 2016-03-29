@@ -1,0 +1,28 @@
+body{
+width:900px;
+padding:0px;}
+#h1{
+color:blue;
+font-size:30px;
+text-transform:uppercase;
+text-shadow:5px 1px 3px;
+}
+@font-face{
+	font-family:myfont;
+	src:url(black_jack.ttf)
+}
+#h2{
+color:blue;
+font-family:myfont;
+}
+#h3 p::first-line{
+	font-weight:bold;
+}
+#h4{
+	color:blue;
+	text-transform:capitalize;
+}
+#h6{
+	float:right;
+	font-style:italic;
+}
